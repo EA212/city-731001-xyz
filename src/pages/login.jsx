@@ -268,7 +268,7 @@ function Login() {
             </ul>
           ) : (
             <div id="instances-eg">
-              <Trans>e.g. &ldquo;mastodon.social&rdquo;</Trans>
+              <Trans>e.g. &ldquo;city01.731001.xyz&rdquo;</Trans>
             </div>
           )}
           {/* <datalist id="instances-list">
@@ -293,13 +293,23 @@ function Login() {
             {selectedInstanceText
               ? t`Continue with ${selectedInstanceText}`
               : t`Continue`}
-          </button>{' '}
+          </button>
+        </div>
+        <div style={{ marginTop: '8px' }}>
+          <button
+            type="button"
+            onClick={() => {
+              window.location.href = 'https://city01.731001.xyz/signup';
+            }}
+          >
+            <Trans>Sign up</Trans>
+          </button>
         </div>
         <Loader hidden={uiState !== 'loading'} />
         <hr />
         {!DEFAULT_INSTANCE && (
           <p>
-            <a href="https://joinmastodon.org/servers" target="_blank">
+            <a href="https://city01.731001.xyz/signup">
               <Trans>Don't have an account? Create one!</Trans>
             </a>
           </p>

@@ -1464,7 +1464,7 @@ msgstr "Following"
 
 #: src/components/nav-menu.jsx:203
 #: src/pages/catchup.jsx:1022
-#: src/pages/welcome.jsx:154
+#: src/pages/welcome.jsx:152
 msgid "Catch-up"
 msgstr ""
 
@@ -3123,7 +3123,7 @@ msgstr "Login required."
 #: src/compose.jsx:96
 #: src/pages/annual-report.jsx:186
 #: src/pages/http-route.jsx:91
-#: src/pages/login.jsx:309
+#: src/pages/login.jsx:319
 msgid "Go home"
 msgstr ""
 
@@ -3869,8 +3869,8 @@ msgid "server domain"
 msgstr "server domain"
 
 #: src/pages/login.jsx:271
-msgid "e.g. “mastodon.social”"
-msgstr ""
+msgid "e.g. “city01.731001.xyz”"
+msgstr "e.g. “city01.731001.xyz”"
 
 #: src/pages/login.jsx:282
 msgid "Failed to log in. Please try again or try another server."
@@ -3884,7 +3884,12 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#: src/pages/login.jsx:303
+#: src/pages/login.jsx:305
+#: src/pages/welcome.jsx:68
+msgid "Sign up"
+msgstr ""
+
+#: src/pages/login.jsx:313
 msgid "Don't have an account? Create one!"
 msgstr ""
 
@@ -4577,79 +4582,75 @@ msgstr ""
 msgid "Log in with Mastodon"
 msgstr ""
 
-#: src/pages/welcome.jsx:69
-msgid "Sign up"
-msgstr ""
-
-#: src/pages/welcome.jsx:76
+#: src/pages/welcome.jsx:74
 msgid "Connect your existing Mastodon/Fediverse account.<0/>Your credentials are not stored on this server."
 msgstr ""
 
-#: src/pages/welcome.jsx:96
+#: src/pages/welcome.jsx:94
 msgid "Screenshot of Phanpy home timeline on mobile device"
 msgstr "Screenshot of Phanpy home timeline on mobile device"
 
-#: src/pages/welcome.jsx:113
+#: src/pages/welcome.jsx:111
 msgid "Screenshot of Phanpy home timeline on tablet device"
 msgstr "Screenshot of Phanpy home timeline on tablet device"
 
-#: src/pages/welcome.jsx:127
+#: src/pages/welcome.jsx:125
 msgid "Screenshot of Boosts Carousel"
 msgstr ""
 
-#: src/pages/welcome.jsx:134
+#: src/pages/welcome.jsx:132
 msgid "Boosts Carousel"
 msgstr ""
 
-#: src/pages/welcome.jsx:137
+#: src/pages/welcome.jsx:135
 msgid "Visually separate original posts and re-shared posts (boosted posts)."
 msgstr ""
 
-#: src/pages/welcome.jsx:147
+#: src/pages/welcome.jsx:145
 msgid "Screenshot of Catch-up"
 msgstr "Screenshot of Catch-up"
 
-#: src/pages/welcome.jsx:157
+#: src/pages/welcome.jsx:155
 msgid "A separate timeline for followings. Email-inspired interface to sort and filter posts."
 msgstr "A separate timeline for followings. Email-inspired interface to sort and filter posts."
 
-#: src/pages/welcome.jsx:167
+#: src/pages/welcome.jsx:165
 msgid "Screenshot of nested comments thread"
 msgstr ""
 
-#: src/pages/welcome.jsx:174
+#: src/pages/welcome.jsx:172
 msgid "Nested comments thread"
 msgstr ""
 
-#: src/pages/welcome.jsx:177
+#: src/pages/welcome.jsx:175
 msgid "Effortlessly follow conversations. Semi-collapsible replies."
 msgstr ""
 
-#: src/pages/welcome.jsx:186
+#: src/pages/welcome.jsx:184
 msgid "Screenshot of multi-column UI"
 msgstr ""
 
-#: src/pages/welcome.jsx:193
+#: src/pages/welcome.jsx:191
 msgid "Single or multi-column"
 msgstr ""
 
-#: src/pages/welcome.jsx:196
+#: src/pages/welcome.jsx:194
 msgid "By default, single column for zen-mode seekers. Configurable multi-column for power users."
 msgstr ""
 
-#: src/pages/welcome.jsx:206
+#: src/pages/welcome.jsx:204
 msgid "Screenshot of multi-hashtag timeline with a form to add more hashtags"
 msgstr ""
 
-#: src/pages/welcome.jsx:213
+#: src/pages/welcome.jsx:211
 msgid "Multi-hashtag timeline"
 msgstr ""
 
-#: src/pages/welcome.jsx:216
+#: src/pages/welcome.jsx:214
 msgid "Up to 5 hashtags combined into a single timeline."
 msgstr ""
 
-#: src/pages/welcome.jsx:231
+#: src/pages/welcome.jsx:229
 msgid "<0>Built</0> by <1>@cheeaun</1>. <2>Privacy Policy</2>."
 msgstr ""
 

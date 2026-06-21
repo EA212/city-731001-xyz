@@ -63,13 +63,11 @@ function Welcome() {
               {DEFAULT_INSTANCE ? t`Log in` : t`Log in with Mastodon`}
             </Link>
           </p>
-          {DEFAULT_INSTANCE && DEFAULT_INSTANCE_REGISTRATION_URL && (
-            <p>
-              <a href={DEFAULT_INSTANCE_REGISTRATION_URL} class="button plain5">
-                <Trans>Sign up</Trans>
-              </a>
-            </p>
-          )}
+          <p>
+            <a href="https://city01.731001.xyz/signup" class="button plain6">
+              <Trans>Sign up</Trans>
+            </a>
+          </p>
           {!DEFAULT_INSTANCE && (
             <p class="insignificant">
               <small>
